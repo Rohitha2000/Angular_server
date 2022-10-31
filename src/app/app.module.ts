@@ -16,12 +16,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   imports: [
     BrowserModule,
-<<<<<<< HEAD
-    AppRoutingModule
-=======
-    FormsModule,
-    NgbModule
->>>>>>> d409ce0 (deda)
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
