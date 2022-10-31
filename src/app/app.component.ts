@@ -6,9 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-<<<<<<< HEAD
-  title = 'Routing';
-=======
+
   title = 'Servers';
   serverElements=[{
     type:'server',
@@ -29,6 +27,4 @@ export class AppComponent {
       content: serverdata.serverContent
     })
   }
-
->>>>>>> d409ce0 (deda)
 }
