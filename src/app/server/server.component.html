@@ -1,0 +1,11 @@
+
+<div class="card" style="width: 18rem;">
+    <div class="card-header">
+        {{element.name}}
+    </div>
+    <ul class="list-group list-group-flush" >
+      <li class="list-group-item" *ngIf= "element.type === 'server'" style="color: red;"><strong>{{element.content}}</strong></li>
+      <li class="list-group-item" *ngIf= "element.type=== 'blueprint'"><p >{{element.content}}</p></li>
+    
+    </ul>
+  </div>
